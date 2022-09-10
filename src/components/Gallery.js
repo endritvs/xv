@@ -1,18 +1,11 @@
 
-import foto1 from "../careerPhotos/foto-1.jpeg";
-import foto3 from "../careerPhotos/foto-3.jpeg";
 import foto4 from "../careerPhotos/foto-4.jpeg";
-import foto5 from "../careerPhotos/foto-5.jpeg";
-import foto6 from "../careerPhotos/foto-6.jpeg";
 import foto7 from "../careerPhotos/foto-7.jpeg";
 import foto11 from "../careerPhotos/foto-11.jpeg";
 import foto12 from "../careerPhotos/foto-12.jpeg";
-import foto13 from "../careerPhotos/foto-13.jpeg";
 import foto14 from "../careerPhotos/foto-14.jpeg";
-import topi from "../careerPhotos/topii.jpeg";
 import ksav from "../careerPhotos/fot-45.jpeg";
-import ksav1 from "../careerPhotos/fot-46.jpeg";
-import ksav2 from "../careerPhotos/fot-47.jpeg";
+
 
 export default function SliderComponent() {
     return (
