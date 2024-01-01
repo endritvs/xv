@@ -13,7 +13,7 @@ export default function SliderComponent() {
               <p className="mb-2 text-m font-semibold leading-none text-center mr-50  text-indigo-600 uppercase ">
         PHOTOS
       </p>
-      <h3 className="mt-2 text-4xl text-center text-zinc-50 mb-2 ">
+      <h3 className="mt-2 text-4xl text-center text-zinc-50 mb-2 px-2">
         Some of my{" "}
         <span className="font-extrabold text-indigo-600">career photos!</span>
       </h3>
@@ -24,33 +24,33 @@ export default function SliderComponent() {
         
     <div className="w-1/2 p-1 md:p-2">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src={foto14} />
+            src={foto14} loading="lazy"/>
         </div>
         <div className="w-1/2 p-1 md:p-2">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src={foto12} />
+            src={foto12} loading="lazy"/>
         </div>
       <div className="flex flex-wrap w-1/2">
      
         <div className="w-full p-1 md:p-2">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src={foto7} />
+            src={foto7} loading="lazy"/>
         </div>
       </div>
       <div className="flex flex-wrap w-1/2">
         <div className="w-full p-1 md:p-2">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src={foto4} />
+            src={foto4} loading="lazy"/>
         </div>
         <div className="w-full p-1 md:p-2">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src={ksav} />
+            src={ksav} loading="lazy"/>
         </div>
     
       </div>
       <div className="flex flex-wrap w-full">
       <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src={foto11} />
+            src={foto11} loading="lazy"/>
         </div>
        
     </div>

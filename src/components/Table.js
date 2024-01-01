@@ -50,7 +50,7 @@ function Cards() {
                                 <td className="py-3 px-6 text-left whitespace-nowrap">
                                     <div className="flex items-center">
                                         <div className="mr-2">
-                                        <img  src={kflugina} alt="KF-LUGINA" width="30px" />
+                                        <img loading="lazy"  src={kflugina} alt="KF-LUGINA" width="30px" />
                                         </div>
                                         <span className="font-medium">KF Lugina</span>
                                     </div>
@@ -91,7 +91,7 @@ function Cards() {
                                 <td className="py-3 px-6 text-left whitespace-nowrap">
                                     <div className="flex items-center">
                                         <div className="mr-2">
-                                          <img class="ml-1" src={kf2korriku} alt="2-KORRIKU" width="20px"/>
+                                          <img loading="lazy" className="ml-1" src={kf2korriku} alt="2-KORRIKU" width="20px"/>
                                         </div>
                                         <span className="font-medium">KF 2 Korriku</span>
                                     </div>
@@ -134,7 +134,7 @@ function Cards() {
                                 <td className="py-3 px-6 text-left whitespace-nowrap">
                                     <div className="flex items-center">
                                         <div className="mr-2">
-                                           <img src={fkdinamo} alt="dinamo" width="30px"/>
+                                           <img loading="lazy" src={fkdinamo} alt="dinamo" width="30px"/>
                                         </div>
                                         <span className="font-medium">FK Dinamo Vranje</span>
                                     </div>
@@ -177,7 +177,7 @@ function Cards() {
                                 <td className="py-3 px-6 text-left whitespace-nowrap">
                                     <div className="flex items-center">
                                         <div className="mr-2">
-                                        <img src={morava} alt="morava" width="30px"/>
+                                        <img loading="lazy" src={morava} alt="morava" width="30px"/>
                                         </div>
                                         <span className="font-medium">SFK Morava</span>
                                     </div>
@@ -220,7 +220,7 @@ function Cards() {
                                 <td className="py-3 px-6 text-left whitespace-nowrap">
                                     <div className="flex items-center">
                                         <div className="mr-2">
-                                        <img src={pcinja} alt="pcinja" width="30px"/>
+                                        <img loading="lazy" src={pcinja} alt="pcinja" width="30px"/>
                                         </div>
                                         <span className="font-medium">FK Pcinja</span>
                                     </div>
@@ -262,7 +262,7 @@ function Cards() {
                                 <td className="py-3 px-6 text-left whitespace-nowrap">
                                     <div className="flex items-center">
                                         <div className="mr-2">
-                                        <img src={rahoveci} alt="rahoveci" width="30px"/>
+                                        <img loading="lazy" src={rahoveci} alt="rahoveci" width="30px"/>
                                         </div>
                                         <span className="font-medium">KF Rahoveci</span>
                                     </div>
@@ -304,7 +304,7 @@ function Cards() {
                                 <td className="py-3 px-6 text-left whitespace-nowrap">
                                     <div className="flex items-center">
                                         <div className="mr-2">
-                                        <img src={roj} alt="roj" width="30px"/>
+                                        <img src={roj} loading="lazy" alt="roj" width="30px"/>
                                         </div>
                                         <span className="font-medium">FC Roj</span>
                                     </div>

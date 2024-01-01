@@ -16,10 +16,10 @@ function Video() {
    
 <div className="grid mb-8 rounded-lg  border-gray-200 shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2">
     <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-800 rounded-t-lg  border-gray-200 md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
-        <iframe className="w-11/12 h-80" src="https://www.youtube.com/embed/D5lukchMYTU" title='title'></iframe>
+        <iframe className="w-11/12 h-80" src="https://www.youtube.com/embed/D5lukchMYTU" title='title' loading='lazy'></iframe>
     </figure>
     <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-800 rounded-tr-lg  border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-    <iframe className="w-11/12 h-80" src="https://www.youtube.com/embed/kmAi9M-oOqo" title='title'></iframe>    
+    <iframe className="w-11/12 h-80" src="https://www.youtube.com/embed/kmAi9M-oOqo" title='title' loading='lazy'></iframe>    
     </figure>
   
 </div>
